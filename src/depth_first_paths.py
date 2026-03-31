@@ -1,3 +1,6 @@
+from algs4.graph import Graph
+
+
 class DepthFirstPaths:
 
     def __init__(self, G, s):

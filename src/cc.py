@@ -1,4 +1,6 @@
 from algs4.bag import Bag
+from algs4.graph import Graph
+
 
 class CC:
 

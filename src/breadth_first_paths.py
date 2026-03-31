@@ -1,5 +1,8 @@
 from collections import deque
 
+from algs4.graph import Graph
+
+
 class BreadthFirstPaths:
 
     def __init__(self, G, s):
