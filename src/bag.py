@@ -1,14 +1,4 @@
 
-"""
-Execution:    python -m algs4.bag ../dataset/tobe.txt
-
-% more ../dataset/tobe.txt
-to be or not to - be - - that - - - is
-
-% python -m algs4.bag ../dataset/tobe.txt
-to be or not to - be - - that - - - is
-"""
-
 from algs4.utils.linklist import Node, LinkIterator
 
 

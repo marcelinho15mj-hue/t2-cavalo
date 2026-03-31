@@ -1,46 +1,4 @@
-"""
- *  Execution    python -m algs4.breadth_first_paths G s
- *  Dependencies: algs4 modules + Python stdlib
- *  Data files:   ../dataset/tinyCG.txt
- *                ../dataset/tinyG.txt
- *                ../dataset/mediumG.txt
- *                ../dataset/largeG.txt
- *
- *  Run breadth first search on an undirected graph.
- *  Runs in O(E + V) time.
- *
- *  %  python -m algs4.graph ../dataset/tinyCG.txt
- *  6 8
- *  0: 2 1 5 
- *  1: 0 2 
- *  2: 0 1 3 4 
- *  3: 5 4 2 
- *  4: 3 2 
- *  5: 3 0 
- *
- *  %  python -m algs4.breadth_first_paths ../dataset/tinyCG.txt 0
- *  0 to 0 (0):  0
- *  0 to 1 (1):  0-1
- *  0 to 2 (1):  0-2
- *  0 to 3 (2):  0-2-3
- *  0 to 4 (2):  0-2-4
- *  0 to 5 (1):  0-5
- *
- *  %  java BreadthFirstPaths ../dataset/largeG.txt 0
- *  0 to 0 (0):  0
- *  0 to 1 (418):  0-932942-474885-82707-879889-971961-...
- *  0 to 2 (323):  0-460790-53370-594358-780059-287921-...
- *  0 to 3 (168):  0-713461-75230-953125-568284-350405-...
- *  0 to 4 (144):  0-460790-53370-310931-440226-380102-...
- *  0 to 5 (566):  0-932942-474885-82707-879889-971961-...
- *  0 to 6 (349):  0-932942-474885-82707-879889-971961-...
- *
-"""
-
 from collections import deque
-
-from algs4.graph import Graph
-
 
 class BreadthFirstPaths:
 

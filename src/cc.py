@@ -1,35 +1,4 @@
-"""
-  Execution:    python -m algs4.cc ../dataset/tinyG.txt
-  Data files:   ../dataset/tinyG.txt
-                ../dataset/mediumG.txt
-                ../dataset/largeG.txt
-
-  Compute connected components using depth first search.
-  Runs in O(E + V) time.
-
-  % python -m algs4.cc ../dataset/tinyG.txt
-  3 components
-  0 1 2 3 4 5 6
-  7 8
-  9 10 11 12
-
-  % python -m algs4.cc ../dataset/mediumG.txt
-  1 components
-  0 1 2 3 4 5 6 7 8 9 10 ...
-
-  % python -m algs4.cc ../dataset/largeG.txt
-  1 components
-  0 1 2 3 4 5 6 7 8 9 10 ...
-
-  Note: This implementation uses a recursive DFS. To avoid needing
-        a potentially very large stack size, replace with a non-recurisve
-        DFS ala NonrecursiveDFS.
-
-"""
-
 from algs4.bag import Bag
-from algs4.graph import Graph
-
 
 class CC:
 

@@ -1,35 +1,3 @@
-"""
-   Execution:  python -m algs4.depth_first_paths G s
-
-   Data files:   ../dataset/tinyCG.txt
-                 ../dataset/tinyG.txt
-                 ../dataset/mediumG.txt
-                 ../dataset/largeG.txt
-
-   Run depth first search on an undirected graph.
-   Runs in O(E + V) time.
-
-   %  python -m algs4.graph ../dataset/tinyCG.txt
-   6 8
-   0: 2 1 5
-   1: 0 2
-   2: 0 1 3 4
-   3: 5 4 2
-   4: 3 2
-   5: 3 0
-
-   % python -m algs4.depth_first_paths ../dataset/tinyCG.txt 0
-   0 to 0:  0
-   0 to 1:  0-2-1
-   0 to 2:  0-2
-   0 to 3:  0-2-3
-   0 to 4:  0-2-3-4
-   0 to 5:  0-2-3-5
-
-"""
-from algs4.graph import Graph
-
-
 class DepthFirstPaths:
 
     def __init__(self, G, s):

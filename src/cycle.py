@@ -1,25 +1,3 @@
-"""
-   Execution:    python -m algs4.cycle filename.txt
-   Data files:   ../dataset/tinyG.txt
-                 ../dataset/mediumG.txt
-                 ../dataset/largeG.txt
- 
-   Identifies a cycle.
-   Runs in O(E + V) time.
- 
-  % python -m algs4.cycle ../dataset/tinyG.txt
-   3 4 5 3
- 
-  % python -m algs4.cycle ../dataset/mediumG.txt
-   15 0 225 15
- 
-  % python -m algs4.cycle ../dataset/largeG.txt
-   996673 762 840164 4619 785187 194717 996673
- """
-
-from algs4.graph import Graph
-
-
 class Cycle:
 
     def __init__(self, G):
