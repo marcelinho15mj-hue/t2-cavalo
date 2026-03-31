@@ -29,41 +29,43 @@ Mapeamento do Tabuleiro
 Os vértices foram numerados na ordem de leitura (da esquerda para a direita, de cima para baixo):
 
 Plaintext
-(0,0) -> 0  |  (0,1) -> 1  |  (0,2) -> 2
-(1,0) -> 3  |  (1,1) -> 4  |  (1,2) -> 5
-(2,0) -> 6  |  (2,1) -> 7  |  (2,2) -> 8
+* (0,0) -> 0  |  (0,1) -> 1  |  (0,2) -> 2
+* (1,0) -> 3  |  (1,1) -> 4  |  (1,2) -> 5
+* (2,0) -> 6  |  (2,1) -> 7  |  (2,2) -> 8
 
 ## 📁 Estrutura do Projeto
 
-t2-cavalo/
+trabalho-bfs-dfs/
 ├── README.md
 ├── dados/
 │   └── entrada.txt
 └── src/
     ├── main.py
     ├── graph.py
-    ├── cc.py
+    ├── depth_first_paths.py
     ├── cycle.py
-    └── breadth_first_paths.py
+    ├── cc.py
+    ├── breadth_first_paths.py
+    └── bag.py
 
 
 ## Como executar
 
 1. Acesse a pasta do projeto:
-cd t2-cavalo/src
+* cd t2-cavalo/src
 
 2. Execute o programa:
-python3 main.py
+* python3 main.py
 
 ## Perguntas que o Programa Responde
 
 O programa gera um relatório automático respondendo:
 
-✔ Lista de Adjacência: Qual o grafo gerado pelos movimentos?
-✔ Componentes Conexas: Quantos grupos isolados existem e quais vértices pertencem a cada um?
-✔ Distância Mínima: Qual o menor caminho entre as posições (0,0) e (2,2)?
-✔ Detecção de Ciclos: O grafo possui ciclos? (Com análise de complexidade de tempo $O(V + E)$ e espaço $O(V)$).
-✔ Exemplo de Ciclo: Quais os vértices que compõem um ciclo encontrado?
+* ✔ Lista de Adjacência: Qual o grafo gerado pelos movimentos?
+* ✔ Componentes Conexas: Quantos grupos isolados existem e quais vértices pertencem a cada um?
+* ✔ Distância Mínima: Qual o menor caminho entre as posições (0,0) e (2,2)?
+* ✔ Detecção de Ciclos: O grafo possui ciclos? (Com análise de complexidade de tempo $O(V + E)$ e espaço $O(V)$).
+* ✔ Exemplo de Ciclo: Quais os vértices que compõem um ciclo encontrado?
 
 ## Conclusão
 
