@@ -4,7 +4,7 @@
 - Professor: Ricardo Carubbi
 
 
-# Link do Video: https://drive.google.com/file/d/1UqqVGpLN1QxnyHj0Mq3achoCjw1Yayvz/view?usp=sharing
+# Link do Video: https://drive.google.com/file/d/1fBTU0sPh9lF2oo6I0qW53zaCm7s-GVyU/view?usp=sharing
 
 ## Alunos
 
