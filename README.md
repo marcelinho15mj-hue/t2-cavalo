@@ -1,7 +1,7 @@
 # Trabalho Prático 2 - Unidade 2
 
-Disciplina: Resolução de Problemas com Grafos
-Professor: Ricardo Carubbi
+- Disciplina: Resolução de Problemas com Grafos
+- Professor: Ricardo Carubbi
 
 
 # Link do Video: https://drive.google.com/file/d/1UqqVGpLN1QxnyHj0Mq3achoCjw1Yayvz/view?usp=sharing
@@ -52,10 +52,10 @@ trabalho-bfs-dfs/
 ## Como executar
 
 1. Acesse a pasta do projeto:
-* cd t2-cavalo/src
+- cd t2-cavalo/src
 
 2. Execute o programa:
-* python3 main.py
+- python3 main.py
 
 ## Perguntas que o Programa Responde
 
