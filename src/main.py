@@ -61,7 +61,7 @@ def main():
             ciclo = list(finder._cycle) if hasattr(finder, '_cycle') else [0, 5, 6, 1, 8, 3, 2, 7, 0]
             print(f"   Vértices do ciclo: {' '.join(map(str, ciclo))}")
         except:
-            print("   Vértices do ciclo: 0 5 6 1 8 3 2 7 0")
+            print("   Ciclo detectado, mas não foi possível extrair a lista de vértices.")
     else:
         print("   Não foram encontrados ciclos.")
 
