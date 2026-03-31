@@ -35,6 +35,7 @@ Plaintext
 
 ## 📁 Estrutura do Projeto
 
+```text
 trabalho-bfs-dfs/
 ├── README.md
 ├── dados/
@@ -47,7 +48,7 @@ trabalho-bfs-dfs/
     ├── cc.py
     ├── breadth_first_paths.py
     └── bag.py
-
+```
 
 ## Como executar
 
